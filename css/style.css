@@ -1,74 +1,101 @@
 /* Сперва общие правила */
 
-* {
+* h2{
     box-sizing: border-box
+    front-family: Verdana;
 }
 
 /* Потом селекторы по тегам */
 
 html {
-
+    width: 250px;
+    height: 200px;
 }
 
 main {
-    width: 300px;
+    padding-left: 30px;
+    width: 250px;
     margin: 0px auto;
 }
 
 p {
-
+    padding-right: 50px;
 }
 
 a {
-
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
+
 .col {
-
+    flex: auto;
+    padding-right: 30px;
+    padding-top: 30px;
 }
-
-
 /* Потом селекторы по классам */
 
 .text-input {
-
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px
 }
 
 .button {
-
+    padding-bottom: 5px;
+    color:white;
+    background-color:#554AF0;
+    border-radius: 6px
 }
-
 /* Потом специальные правила по страничкам */
 
 /* Login*/
 
 .input-login {
-
-
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px
 }
-
 
 /* Страничка жанров и тегов */
 
 .genre-first {
-
+    background-color: #E1F5EA;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .genre-second {
-
+    background-color: #CBEDFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .genre-third {
-
+    background-color: #FFA07A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .genre-fourth {
-
+    background-color: #EBDCF9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .tag {
@@ -84,11 +111,14 @@ a {
 /* Страничка подписки  */
 
 .box-green {
-
+    background-color: #E1F5EA;
+    margin-bottom: 30px;
 }
 
 .box-purple {
-
+    background-color: #CBEDFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .text-large {
@@ -96,5 +126,10 @@ a {
 }
 
 .button-link {
-
+    font-family: Verdana;
+    font-size: 16px;
+    padding-bottom: 10px;
+    color:white;
+    background-color:#554AF0;
+    border-radius: 6px
 }
